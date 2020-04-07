@@ -3,14 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {AngularBotModule} from './angular-bot/angular-bot.module';
+import {ChatComponent} from './chat/chat.component';
+import {MainComponent} from './main/main.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChatComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularBotModule
   ],
   providers: [],
   bootstrap: [AppComponent]
