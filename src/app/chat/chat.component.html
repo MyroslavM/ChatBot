@@ -10,7 +10,7 @@
 
 <label *ngIf="messages.length == 0; else dialogInfo" for="nameFailed">Ваше повідомлення</label>
 
-<input [(ngModel)="value" (keyup.enter)="sendMessage()" type="text">
+<input [(ngModel)]="value" (keyup.enter)="sendMessage()" type="text">
 <button (click)="sendMessage()">Надіслати</button>
 
 <ng-template #dialogInfo>

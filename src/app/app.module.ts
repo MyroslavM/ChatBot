@@ -9,9 +9,7 @@ import {MainComponent} from './main/main.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ChatComponent,
-    MainComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
